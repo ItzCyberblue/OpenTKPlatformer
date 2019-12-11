@@ -1,6 +1,5 @@
 class Player:
-	BoardX = 0
-	BoardY = 0
-	direction = "right"
+	PositionX = 0
+	PositionY = 0
+	directionFacing = "right"
 	Alive = True
-	body = [[BoardX, BoardY]]
