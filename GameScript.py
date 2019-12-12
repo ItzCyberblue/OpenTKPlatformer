@@ -4,13 +4,12 @@ import player
 
 
 
-SetttingsObject = settings.Settings()
+SettingsObject = settings.Settings()
 PlayerObject = player.Player()
 ColorObject = settings.Color()
 
-window = pygame.display.set_mode((SetttingsObject.ScreenWidth, SetttingsObject.ScreenHeight))
-pygame.display.set_caption("Pygame Game")
-
+window = pygame.display.set_mode((SettingsObject.ScreenWidth, SettingsObject.ScreenHeight))
+pygame.display.set_caption("Platformer Made Out of Boredom")
 
 
 
@@ -18,10 +17,11 @@ pygame.display.set_caption("Pygame Game")
 pygame.init()
 
 def MainLoop():
-    while SetttingsObject.GameRunning == True:
+    while SettingsObject.GameRunning == True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                SetttingsObject.GameRunning = False
+                SettingsObject.GameRunning = False
+
 
 
 MainLoop()
