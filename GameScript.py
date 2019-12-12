@@ -1,16 +1,20 @@
+# Importing libraries
 import pygame
 import settings
 import player
 import backgroundObject
 
-
+pygameClock = pygame.time.Clock()
 SetttingsObject = settings.Settings()
 PlayerObject = player.Player()
 ColorObject = settings.Color()
 
+
+#Initilaizing Window
 window = pygame.display.set_mode((SetttingsObject.ScreenWidth, SetttingsObject.ScreenHeight))
 pygame.display.set_caption("Pygame Game")
 
+# Set a background object
 backgroundObjects = [backgroundObject.BackgroundObject()]
 pygame.init()
 
@@ -29,6 +33,8 @@ def MainLoop():
             if event.type == pygame.QUIT:
                 SetttingsObject.GameRunning = False
                 # Added test comment
+
+
         PlayerObject.getInput(backgroundObjects)
         for backgroundObj in backgroundObjects:
             window.blit(pygame.image.load('house.jpg'), (backgroundObj.PositionX, backgroundObj.PositionY))
@@ -37,6 +43,7 @@ def MainLoop():
         
 
         pygame.display.flip()
+        pygameClock.tick(60)
 
 
 
