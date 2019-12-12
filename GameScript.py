@@ -30,11 +30,11 @@ def MainLoop():
                 SetttingsObject.GameRunning = False
                 # Added test comment
         PlayerObject.getInput(backgroundObjects)
-
+        for backgroundObj in backgroundObjects:
+            window.blit(pygame.image.load('house.jpg'), (backgroundObj.PositionX, backgroundObj.PositionY))
         window.fill(ColorObject.BLACK)
         pygame.draw.rect(window, ColorObject.RED, pygame.Rect((PlayerObject.PositionX, PlayerObject.PositionY), (PlayerObject.Width, PlayerObject.Height)))
-        for backgroundObj in backgroundObjects:
-            pygame.draw.rect(window, (255, 255, 255), pygame.Rect((backgroundObj.PositionX, backgroundObj.PositionY), (30, 40)))
+        
 
         pygame.display.flip()
 
