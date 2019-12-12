@@ -28,6 +28,7 @@ def MainLoop():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 SetttingsObject.GameRunning = False
+                # Added test comment
         PlayerObject.getInput(backgroundObjects)
 
         window.fill(ColorObject.BLACK)
