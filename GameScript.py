@@ -1,12 +1,13 @@
 import pygame
 import settings
 import player
-
 import backgroundObject
 
 
 SetttingsObject = settings.Settings()
+PlayerObject = player.Player()
 ColorObject = settings.Color()
+
 window = pygame.display.set_mode((SetttingsObject.ScreenWidth, SetttingsObject.ScreenHeight))
 pygame.display.set_caption("Pygame Game")
 
@@ -21,10 +22,8 @@ for i in range(0, pygame.joystick.get_count() - 1):
 
 
 
-pygame.init()
 
 def MainLoop():
-    while SetttingsObject.GameRunning == True:
     while SetttingsObject.GameRunning == True and PlayerObject.Alive == True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -43,3 +42,4 @@ def MainLoop():
 
 
 MainLoop()
+
