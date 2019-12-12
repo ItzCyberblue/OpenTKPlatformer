@@ -1,0 +1,8 @@
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK RPG.exe
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK RPG.pdb
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.dll
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.pdb
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.xml
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.csprojResolveAssemblyReference.cache
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.exe
+C:\Users\april\Documents\Projects\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.pdb

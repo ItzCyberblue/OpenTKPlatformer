@@ -7,7 +7,7 @@ namespace OpenTK_RPG
 	{
 		public static void Main(string[] args)
 		{
-			GameWindow window = new GameWindow(500, 500);
+			GameWindow window = new GameWindow(800, 600);
 			window.Run(1.0/60.0);
 		}
 	}
