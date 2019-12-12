@@ -37,7 +37,12 @@ def MainLoop():
 
         PlayerObject.getInput(backgroundObjects)
         for backgroundObj in backgroundObjects:
-            window.blit(pygame.image.load('house.jpg'), (backgroundObj.PositionX, backgroundObj.PositionY))
+            window.blit(pygame.image.load('cool.png'), (backgroundObj.PositionX, backgroundObj.PositionY))
+
+        for spellObject in PlayerObject.SpellsEquipped:
+            for bullet in spellObject.SpellObjects:
+                bullet.MoveWithDirection()
+                pygame.draw.rect(window, ColorObject.RED, pygame.Rect((bullet.PositionX, bullet.PositionY), (20, 50)))
         window.fill(ColorObject.BLACK)
         pygame.draw.rect(window, ColorObject.RED, pygame.Rect((PlayerObject.PositionX, PlayerObject.PositionY), (PlayerObject.Width, PlayerObject.Height)))
         

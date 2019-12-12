@@ -6,7 +6,7 @@ class Player:
 	PositionY = 275
 	Width = 50
 	Height = 50
-	directionFacing = "right"
+	directionFacing = "RIGHT"
 	Alive = True
 
 	Health = 100
@@ -17,11 +17,12 @@ class Player:
 
 	Inventory = []
 	Spells = []
-	SpellsEquipped = [Spell.Spell("Test Spell", Spell.SpellDamageRange(30, 90), False, 1)]
+	SpellsEquipped = [Spell.Spell("Development God Tier Spell", Spell.SpellDamageRange(99999999, 99999999), False, 1, "house.jpg")]
 
 
 	def ShootSpell(self, Number):
 		print("Shot " + self.SpellsEquipped[Number - 1].name)
+		self.SpellsEquipped[Number - 1].SpellObjects.append(Spell.SpellBullet(self.directionFacing, self.PositionX + self.Width/2, self.PositionY + self.Height/2, 5))
 
 	def getInput(self, backgroundObjects):
 		self.SpellsEquipped[0].cooldownnumber += 1
@@ -29,15 +30,27 @@ class Player:
 		if keys[pygame.K_a]:
 			for backgroundObject in backgroundObjects:
 				backgroundObject.PositionX += 1
+			for SpellEquipped in self.SpellsEquipped:
+				for bullet in SpellEquipped.SpellObjects:
+					bullet.PositionX += 1
 		if keys[pygame.K_d]:
 			for backgroundObject in backgroundObjects:
 				backgroundObject.PositionX -= 1
+			for SpellEquipped in self.SpellsEquipped:
+				for bullet in SpellEquipped.SpellObjects:
+					bullet.PositionX -= 1
 		if keys[pygame.K_w]:
 			for backgroundObject in backgroundObjects:
 				backgroundObject.PositionY += 1
+			for SpellEquipped in self.SpellsEquipped:
+				for bullet in SpellEquipped.SpellObjects:
+					bullet.PositionY += 1
 		if keys[pygame.K_s]:
 			for backgroundObject in backgroundObjects:
 				backgroundObject.PositionY -= 1
+			for SpellEquipped in self.SpellsEquipped:
+				for bullet in SpellEquipped.SpellObjects:
+					bullet.PositionY -= 1
 
 		if keys[pygame.K_h]:
 			if self.SpellsEquipped[0].cooldownnumber >= self.SpellsEquipped[0].maxcooldown:
