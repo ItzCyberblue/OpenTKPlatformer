@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5758ada7-5779-4fcb-bed9-d5729d3fc0c7" name="Default Changelist" comment="" />
+    <list default="true" id="7d63d8ee-f82e-4ee3-ac0e-6585e09a1108" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1UofjJfo9ID9oTbCFaIIFPF43Gl" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UrMGqn20poDlFC6EGbBjCeMOxC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,7 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../player.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -38,26 +45,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5758ada7-5779-4fcb-bed9-d5729d3fc0c7" name="Default Changelist" comment="" />
-      <created>1576028002577</created>
+      <changelist id="7d63d8ee-f82e-4ee3-ac0e-6585e09a1108" name="Default Changelist" comment="" />
+      <created>1576110168544</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576028002577</updated>
+      <updated>1576110168544</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576028631233">
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1576110185740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576028631233" />
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1576028385881">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="384" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576028385881" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1576028597922">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576028597922" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576110185740" />
   </component>
 </project>
