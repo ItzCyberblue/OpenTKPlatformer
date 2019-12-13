@@ -6,6 +6,7 @@
         <e p="backgroundObject.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CordinateVector2.cs" t="Include" />
+        <e p="Game.cs" t="Include" />
         <e p="Item.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="OpenTK RPG.csproj" t="IncludeRecursive" />
