@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/CordinateVector2.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/backgroundObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/OpenTK RPG/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/OpenTK RPG/Spell.cs" root0="FORCE_HIGHLIGHTING" />
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/OpenTK RPG/Loading.cs" />
         <option value="$PROJECT_DIR$/OpenTK RPG/Spell.cs" />
         <option value="$PROJECT_DIR$/OpenTK RPG/Player.cs" />
+        <option value="$PROJECT_DIR$/OpenTK RPG/Game.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576123559836</updated>
       <workItem from="1576123571605" duration="793000" />
-      <workItem from="1576181799025" duration="5516000" />
+      <workItem from="1576181799025" duration="7005000" />
     </task>
     <servers />
   </component>

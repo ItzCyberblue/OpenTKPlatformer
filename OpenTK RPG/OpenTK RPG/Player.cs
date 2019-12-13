@@ -28,7 +28,7 @@ namespace OpenTK_RPG
 
         void ShootSpell(Spell SpellToShoot)
         {
-            SpellToShoot.Bullets.Append(new Bullet(this.PositionVector, this.directionFacing, SpellToShoot.Speed));
+            SpellToShoot.Bullets.Add(new Bullet(this.PositionVector, this.directionFacing, SpellToShoot.Speed));
         }
     }
 }
