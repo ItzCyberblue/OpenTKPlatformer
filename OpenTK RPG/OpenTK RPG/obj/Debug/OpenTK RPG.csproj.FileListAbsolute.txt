@@ -1,8 +1,0 @@
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK RPG.exe
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK RPG.pdb
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.dll
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.pdb
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\bin\Debug\OpenTK.xml
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.csprojResolveAssemblyReference.cache
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.exe
-C:\Derivative-Rain\OpenTKPlatformer\OpenTK RPG\OpenTK RPG\obj\Debug\OpenTK RPG.pdb
