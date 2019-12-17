@@ -23,7 +23,7 @@ namespace OpenTK_RPG
 
         void AddToInventory(Item newItemToAdd)
         {
-            this.Inventory.Append(newItemToAdd);
+            this.Inventory.Add(newItemToAdd);
         }
 
         void ShootSpell(Spell SpellToShoot)
