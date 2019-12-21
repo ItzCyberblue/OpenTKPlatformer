@@ -6,21 +6,25 @@
         <e p="backgroundObject.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CordinateVector2.cs" t="Include" />
-        <e p="Game.cs" t="Include" />
+        <e p="defaultShader.frag" t="Include" />
+        <e p="defaultShader.vert" t="Include" />
         <e p="Item.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="OpenTK RPG.csproj" t="IncludeRecursive" />
+        <e p="OpenTK.dll.config" t="Include" />
+        <e p="packages.config" t="Include" />
         <e p="Player.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="Rendering" t="Include" />
         <e p="Spell.cs" t="Include" />
       </e>
       <e p="OpenTK RPG.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\1662978\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\1662978\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_OpenTK RPG.175511868.00" t="ExcludeRecursive" />
+    <e p="C:\Users\1662978\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\1662978\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_OpenTK RPG.175511868.00" t="ExcludeRecursive" />
   </component>
 </project>

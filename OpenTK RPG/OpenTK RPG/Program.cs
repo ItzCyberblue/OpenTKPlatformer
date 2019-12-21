@@ -1,15 +1,15 @@
 ﻿using System;
-using OpenTK;
-
+using SFML.Graphics;
+using SFML.System;
+using SFML.Window;
 namespace OpenTK_RPG
 {
 	class Program
 	{
 		public static void Main(string[] args)
 		{
-			GameWindow window = new GameWindow(800, 600);
-            Game game = new Game(window);
-			window.Run(1.0/60.0);
+			
+			RenderWindow window = new RenderWindow(new VideoMode(800, 600), "LEL");
 		}
 	}
 }
